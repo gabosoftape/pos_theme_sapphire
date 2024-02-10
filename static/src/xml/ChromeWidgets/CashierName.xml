@@ -10,7 +10,7 @@
         <xpath expr="//div[hasclass('oe_status')]//img[hasclass('avatar')]" position="after">
             <div style="margin-left: 20px" class="d-inline-block">
                 <h5 class="name username"><t t-esc="username"/></h5>
-                <p class="mail"><t t-esc="email"/></p>
+                <p class="mail"><t t-esc="mail"/></p>
             </div>
         </xpath>
     </t>
